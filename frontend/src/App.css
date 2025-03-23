@@ -1,0 +1,334 @@
+/* Reset and Body */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0f2ff;
+  font-family: 'Segoe UI', sans-serif;
+  display: block !important;
+  color:black;
+  background-image: url("https://lovepik.com/image-611131639/travel-travel-passport-ticket-png.html");
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #4682b4;
+  color: black;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand a {
+  color: rgb(3, 3, 3);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: black;
+}
+
+.login-link, .logout-button {
+  background-color: #6ca0dc;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-button:hover,
+.login-link:hover {
+  background-color: #5588c3;
+}
+
+/* Home Page Centering */
+.home-page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #e0f2ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Welcome Banner */
+.welcome-banner {
+  background-color: #66b3ff;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  margin-bottom: 3rem;
+}
+
+.welcome-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-banner p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.get-started-button {
+  background-color: #66e0a3;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.get-started-button:hover {
+  background-color: #4cc98a;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.feature {
+  background-color: #d8ecff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.feature h3 {
+  margin-bottom: 1rem;
+  color: #4682b4;
+}
+
+/* Login Page */
+.login-form, .registration-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}  
+
+.login-form h2, .registration-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.login-form input, .registration-form input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #ffffff; /* Ensuring background is white */
+}
+
+.login-form button, .registration-form button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #007bff;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover, .registration-form button:hover {
+  background-color: #0056b3;
+}
+
+.login-form a, .registration-form a {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-form a:hover, .registration-form a:hover {
+  text-decoration: underline;
+}
+
+/* Booking Page */
+.booking-page {
+  width: 100%;
+  color: black;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #f0f8ff;
+}
+
+.booking-form {
+  background: #fff;
+  color:black;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea,
+.booking-form button {
+  width: 100%;
+  margin: 0.8rem 0;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color:black; /* Added text color */
+  background-color: #ffffff; /* Ensuring background is white */
+}
+
+.booking-form button {
+  background-color: #007bff;
+  color: #eee2e2;
+  border: none;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Reusable Button Hover */
+button:hover {
+  opacity: 0.9;
+}
+.mybookings-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.mybookings-header h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mybookings-empty {
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+  color: #555;
+}
+
+.mybookings-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.mybookings-btn:hover {
+  background-color: #0056b3;
+}
+
+.mybookings-table-wrapper {
+  overflow-x: auto;
+}
+
+.mybookings-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mybookings-table th, .mybookings-table td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.mybookings-table th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 600;
+}
+
+.mybookings-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.mybookings-status {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.status-confirmed {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.status-pending {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.mybookings-action-btn {
+  padding: 8px 16px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #17a2b8;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.mybookings-action-btn:hover {
+  background-color: #138496;
+}
+
+.mybookings-action-btn.cancel {
+  background-color: #dc3545;
+}
+
+.mybookings-action-btn.cancel:hover {
+  background-color: #bd2130;
+}
+
+.mybookings-loading,
+.mybookings-error {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  color: #555;
+}
